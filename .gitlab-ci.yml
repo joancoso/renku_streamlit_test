@@ -18,5 +18,5 @@ image_build:
     - docker build --tag $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA_7 .
     - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA_7
   tags:
-    - image-build
+    - image_build
     
