@@ -5,7 +5,7 @@ c.ServerProxy.servers = {
         'command': [
             'streamlit',
             'run',
-            'helloworld.py',
+            'streamlit-v2-example/helloworld.py',
             '--server.port', '8501',
             '--browser.serverAddress', '0.0.0.0',
         ],
